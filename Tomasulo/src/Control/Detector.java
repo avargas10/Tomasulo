@@ -34,4 +34,30 @@ public class Detector {
 		System.out.println("Número de fila: "+matriz.length);
 		System.out.println("Número de columnas: "+matriz[0].length);  
 	}
+	
+	public int detector_instr(String str) {
+		// TODO Auto-generated method stub
+			int result = -1;
+
+			if (str == "LD" || str == "SD") {
+				result = 0;
+			}
+			if (str == "ADD" || str == "SUB" ) {
+				result = 1;
+			}
+			if (str == "MUL" || str == "DIV") {
+				result = 2;
+			}
+			if (str == "L.D" || str == "S.D" ) {
+				result = 3;
+			}
+			if (str == "ADD.D" || str == "SUB.D") {
+				result = 4;
+			}
+			if (str == "MUL.D" || str == "DIV.D" ) {
+				result = 5;
+			}
+			return result;
+		}
+		 
 }

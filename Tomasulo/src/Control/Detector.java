@@ -59,5 +59,19 @@ public class Detector {
 			}
 			return result;
 		}
+	
+	public boolean detectRAW1(String[] instr, String[] compare) {
+		if(instr[2]==compare[1]) {
+			return true;}
+		else {
+			return false;}
+		}
+		
+	public boolean detectRAW2(String[] instr, String[] compare) {
+		if(instr[3]==compare[1]) {
+			return true;}
+		else {
+			return false;}
+		}
 		 
 }

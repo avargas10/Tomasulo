@@ -1,12 +1,14 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
-import java.io.RandomAccessFile;
-import java.nio.ByteBuffer;
-import java.nio.channels.FileChannel;
+
+import Control.Fetch;
 
 public class mainTomasulo {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws Throwable {
 
-
+			Fetch FE = new Fetch();
     }
 }

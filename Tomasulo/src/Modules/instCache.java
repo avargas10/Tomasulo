@@ -31,6 +31,10 @@ public class instCache {
 		return _instruction[pc];
 	} 
 	public void setInstruction(int pc,String[] inst) {
+		System.out.println("Type: "+inst[0]);
+		System.out.println("Rd: "+inst[1]);
+		System.out.println("Rs: "+inst[2]);
+		System.out.println("Rm: "+inst[3]);
 		_instruction[pc] = inst;
 	}
 

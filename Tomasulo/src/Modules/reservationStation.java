@@ -37,14 +37,14 @@ public class reservationStation {
 	public void addInstruction(String[] instruction,int mode) {
 		if(instructions.size()>7) {return ;}
 		reservedInstruction newInstr = new reservedInstruction();
-		
 		switch(mode) {
 			case 0:
 				int i = 0;
 				while(i<2) {
 					if(!station1[i].busy) {
-						station1[i].instr = instruction;
-						station1[i].busy = true;
+						newInstr.instr= instruction;
+						newInstr.busy = true;
+						newInstr.myPos = i;
 						++i;
 					}
 					
@@ -54,8 +54,9 @@ public class reservationStation {
 				i = 2;
 				while(i<5) {
 					if(!station1[i].busy) {
-						station1[i].instr = instruction;
-						station1[i].busy = true;
+						newInstr.instr= instruction;
+						newInstr.busy = true;
+						newInstr.myPos = i;
 						++i;
 					}
 					
@@ -65,8 +66,9 @@ public class reservationStation {
 				i = 5;
 				while(i<7) {
 					if(!station1[i].busy) {
-						station1[i].instr = instruction;
-						station1[i].busy = true;
+						newInstr.instr= instruction;
+						newInstr.busy = true;
+						newInstr.myPos = i;
 						++i;
 					}
 					
@@ -77,6 +79,7 @@ public class reservationStation {
 				break;
 				
 		}
+		 instructions.add(newInstr);
 		
 	}
 }

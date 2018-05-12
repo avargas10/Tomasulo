@@ -13,5 +13,6 @@ public class reservedInstruction {
 	public String Qk;
 	public String A;
 	public String[] instr;
+	public int myPos;
 	
 }

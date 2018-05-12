@@ -18,13 +18,13 @@ public class Detector {
 			int y = x+1;
 			if (y < matriz.length) {
 			if (a == matriz [y][1]) {
-				System.out.print("["+matriz[y][1]+"]"+"WAW");
+				System.out.print("["+matriz[y][1]+"]"+"["+matriz[x][0]+"]");
 			}
 			if (b == matriz [y][1]) {
-				System.out.print("["+matriz[y][1]+"]"+"WAR");
+				System.out.print("["+matriz[y][1]+"]"+"["+matriz[x][0]+"]");
 			}
 			if (c == matriz [y][1]) {
-				System.out.print("["+matriz[y][1]+"]"+"WAR");
+				System.out.print("["+matriz[y][1]+"]"+"["+matriz[x][0]+"]");
 			}
 				/*System.out.print("["+numeros[x][y]+"]");*/
 			System.out.println("\n");

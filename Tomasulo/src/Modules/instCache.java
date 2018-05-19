@@ -24,7 +24,7 @@ public class instCache {
 	
 	private instCache() {
 		// TODO Auto-generated constructor stub
-		_instruction = new String[12][4];
+		_instruction = new String[7][4];
 	}
 	
 	public String[] getInstruction(int pc) {

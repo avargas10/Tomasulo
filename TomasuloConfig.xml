@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\afeli\Documents\GitHub\Tomasulo\Tomasulo.jar</jar>
+  <outfile>Tomasulo.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>true</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\afeli\Pictures\wallpapers\icon.ico</icon>
+  <singleInstance>
+    <mutexName>Tomasulo</mutexName>
+    <windowTitle>Tomasulo</windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.6.0_23</minVersion>
+    <maxVersion>1.8.0_161</maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>tomasulo_andresvargas</txtFileVersion>
+    <fileDescription>Tomasulo algorithm java</fileDescription>
+    <copyright>@AndresVargas</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>tomasulo_andresvargas</txtProductVersion>
+    <productName>tomasulo algorithm</productName>
+    <companyName>VargasCO</companyName>
+    <internalName>vargas</internalName>
+    <originalFilename>Tomasulo.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>
